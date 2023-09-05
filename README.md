@@ -13,13 +13,13 @@ Swift/SwiftUI Project describing use of ReductedView
             Text("Subtitle")
                 .font(.subheadline)
   }.padding()
-  .redacted(reason: placeholder)
+  .redacted(reason: .placeholder)
 ```
 
  # View
 ```swift
 Text("Title")
-.redacted(reason: placeholder)
+.redacted(reason: .placeholder)
 ```
 
 </details>
